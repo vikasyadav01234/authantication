@@ -9,6 +9,7 @@ router.post("/signup", signup);
 
 router.get("/test", auth, (req,res)=>{
     res.json({
+        
         success:true,
         message:"test",
         })
